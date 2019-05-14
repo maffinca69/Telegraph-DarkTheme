@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Telegraph Dark",
+  "version": "1.0",
+  "description": "Dark theme for the site Telegraph",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://telegra.ph/*"]
+  }]
+
+}
